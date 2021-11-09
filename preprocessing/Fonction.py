@@ -59,7 +59,7 @@ def readImagesFromAnnotation(annotation: str,pathToAnnotation:str,pathToImg:str)
 
         if "mask_weared_incorrect" in visage[0] or "with_incorrect_mask" in visage[0]:
             cv2.rectangle(image_with_incorrect_mask, point1, point2, couleur,-1)
-    basseresolution = (426,240)
+    basseresolution = (512,512)
     image_with_mask= cv2.resize(image_with_mask,basseresolution,interpolation = cv2.INTER_NEAREST)
     image_without_mask =cv2.resize(image_without_mask,basseresolution,interpolation = cv2.INTER_NEAREST)
     image_with_incorrect_mask =cv2.resize(image_with_incorrect_mask,basseresolution,interpolation = cv2.INTER_NEAREST)
