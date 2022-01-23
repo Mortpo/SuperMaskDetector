@@ -11,7 +11,9 @@ Projet pour detecter si un masque est bien mis ou non
 0. **Uniquement pour avoir les FPS** Déplacer le fichier detect.py de To_move_in_YoloV5/ vers yoloV5/ et écraser celui de yolo
 1. Se placer dans yoloV5/
 2. Executer "python detect.py --source 0 --weights ../Reseaux/ReseauN21yoloV5s.pt"
-3. un dossier est crée dans runs/detect
+4. un dossier est crée dans runs/detect
+
+![Exemple](exemple.jpg)
 
 #Validation avec le dataset de kaggle et pycocotool
 1. Se placer dans yoloV5/
@@ -24,3 +26,4 @@ Projet pour detecter si un masque est bien mis ou non
 2. Pour entrainer nous utilisons "python train.py --img 640 --batch 20 --epochs 15 --data datadudataset.yaml --weights yolov5s.pt --hyp ../DataSet/hypV7.yaml"
 3. Un dossier est crée dans runs/train
 
+Crée par Peter BACHOUR et Romain ANQUETIN
