@@ -8,6 +8,7 @@ Projet pour detecter si un masque est bien mis ou non
 -Pour convertir le datasetKaggle(voc) vers coco j'ai utilisé le script, j'ai fourni le .json pour utiliser pycocotool dessus directement. voc2coco.py https://github.com/yukkyo/voc2coco
 
 #Inférence sur webcam
+0. **Uniquement pour avoir les FPS** Déplacer le fichier detect.py de To_move_in_YoloV5/ vers yoloV5/ et écraser celui de yolo
 1. Se placer dans yoloV5/
 2. Executer "python detect.py --source 0 --weights ../Reseaux/ReseauN21yoloV5s.pt"
 3. un dossier est crée dans runs/detect
