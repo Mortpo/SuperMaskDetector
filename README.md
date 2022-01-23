@@ -26,6 +26,6 @@ Projet pour detecter si un masque est bien mis ou non
 2. Pour entrainer nous utilisons "python train.py --img 640 --batch 20 --epochs 15 --data datadudataset.yaml --weights yolov5s.pt --hyp ../DataSet/hypV7.yaml"
 3. Un dossier est crée dans runs/train
 
-![ModelExemple](conf.jpg)
+![ModelExemple](conf.png)
 
 Crée par Peter BACHOUR et Romain ANQUETIN
