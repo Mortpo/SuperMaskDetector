@@ -22,7 +22,7 @@ Projet pour detecter si un masque est bien mis ou non
 4. Il faut utiliser pycocotool à part pour comparer les 2 jsons
 
 #Entrainement
-1. Le dataset utilisé est une fusion de celui de cette année et celui de l'année dernière
+1. Le dataset utilisé est une fusion de celui de cette année 2021-2022 (https://github.com/jolignier/face-mask-dataset-ilc-2021)  et celui de l'année dernière
 2. Pour entrainer nous utilisons "python train.py --img 640 --batch 20 --epochs 15 --data datadudataset.yaml --weights yolov5s.pt --hyp ../DataSet/hypV7.yaml"
 3. Un dossier est crée dans runs/train
 
