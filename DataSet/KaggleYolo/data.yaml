@@ -2,4 +2,4 @@ train: ../train/images
 val: ../valid/images
 
 nc: 3
-names: ['with_incorrect_mask', 'with_mask', 'without_mask']
+names: ['mask_weared_incorrect', 'with_mask', 'without_mask']
