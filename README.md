@@ -16,10 +16,11 @@ Projet pour detecter si un masque est bien mis ou non
 ![Exemple](exemple.jpg)
 
 # Validation avec le dataset de kaggle et pycocotool
-1. Se placer dans yoloV5/
-2. Executer "python val.py --data ../DataSet/KaggleYolo/data.yaml --weights ../Reseaux/ReseauN21yoloV5s.pt --save-json"
-3. Un dossier est crée dans runs/val
-4. Il faut utiliser pycocotool à part pour comparer les 2 jsons
+1. Déplacer le dossier data dans yolov5/
+2. Se placer dans yoloV5/
+3. Executer "python val.py --data EvalKaggle.yaml --weights ../Reseaux/ReseauN21yoloV5s.pt --save-json" (--save-json est en option)
+4. Un dossier est crée dans runs/val
+5. Il faut utiliser pycocotool à part pour comparer les 2 jsons
 
 # Entrainement
 1. Le dataset utilisé est une fusion de celui de cette année 2021-2022 (https://github.com/jolignier/face-mask-dataset-ilc-2021)  et celui de l'année dernière
