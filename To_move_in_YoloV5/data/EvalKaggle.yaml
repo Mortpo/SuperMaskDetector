@@ -1,0 +1,5 @@
+path: ../DataSet/KaggleYolo
+val: valid/images
+
+nc: 3
+names: ['mask_weared_incorrect', 'with_mask', 'without_mask']
